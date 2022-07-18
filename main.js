@@ -43,3 +43,7 @@ for (let key in ourTeam){
     console.log(key);
     console.log(ourTeam[key]);
 }
+
+for (let i=0; i < 6 ;i++){
+    document.getElementById("container").innerHTML += "name: " + ourTeam[i].name + "role: "+ ourTeam[i].age +"pic:" + ourTeam[i].pic; 
+}
